@@ -1,0 +1,49 @@
+body{
+    background: floralwhite;
+}
+.form{
+    background: #20f2;
+    padding-left: 10px;
+    margin-left: 300px;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+body div form input{
+    padding-top: 10px;
+    padding-left: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+body div img{
+    margin-left: 400px;
+}
+.button{
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+body div form span{
+    padding:0;
+}
+body div form a{
+    color: red;
+    margin-left: 95px;
+}
+.input{
+    border-radius: 10px;
+    background: pink;
+}
+body div b{
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    width: auto;
+    height: 100px;
+    top: 0;
+    right: 0;
+}

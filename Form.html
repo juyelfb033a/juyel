@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../images/logo.png" type="images/x-icon">
+          <title> 1st project</title>
+  <link rel="stylesheet" href="../css_file/form.css">
+</head>
+<body>
+        <h1>WELCOME TO WEBSITE</h1><img src="../images/logo.png" class="logo"/><hr/><br/>
+  <div class="conatiner">
+    <h3>Sign up</h3>
+    <input type="text" name="name" id="name" placeholder="Type your Name">
+    <br>
+    <input type="email" name="email" id="email" placeholder="Your primary Email ">
+    <br>
+    <input type="password" name="password" id="password" placeholder="Password">
+    <br>
+    <input type="password" name="rePassword" id="rePassword" placeholder="Re-Type Password">
+    <br>
+    <button type="submit" id="submit" onclick="submit ()">Create your Account !</button>
+    <br>
+    <h3 id="p"></h3>
+  </div>
+  <script>
+    function submit() {
+      let name = document.getElementById("name").value
+  let email = document.getElementById("email").value
+let password = document.getElementById("password").value
+let rePassword = document.getElementById("rePassword").value
+let p = document.getElementById("p")
+  localStorage.setItem("Name", name)
+  localStorage.setItem("E-mail : ", email)
+  localStorage.setItem( "Password : ", password)
+  localStorage.setItem("Repassword : ", rePassword)
+  console.log(localStorage)
+  
+  p.textContent = "hey " + name + "! Your account is being created !"
+}
+
+
+  </script>
+</body>
+</html>
+  

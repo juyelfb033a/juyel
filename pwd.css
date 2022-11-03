@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: floralwhite;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    width: auto;
+    height: 100px;
+    top: 0;
+    right: 0;
+}
+body >h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+body div form input{
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 280px;
+    border: none;
+    border-radius: 20px;
+}
+body div form{
+    background: lightsalmon;
+    width: 350px;
+    height: 100PX;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.src{
+    background: gold;
+}
+.img{
+    width: 10px;
+}
+.logo-1{
+    margin-left: 400px;
+}
+body b{
+    font-size: 20px;
+}
